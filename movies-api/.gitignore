@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+
+# Compiled output
+/dist/
+/out-tsc/
+
+# Log files
+npm-debug.log
+yarn-error.log
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests
+/coverage/
+/.nyc_output/
+
+# Build artifacts
+/build/
+
+# Visual Studio Code directories
+.vscode/

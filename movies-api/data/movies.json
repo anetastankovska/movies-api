@@ -1,0 +1,130 @@
+[
+    {
+        "id": "64e489b11540095f145c6a07",
+        "name": "The Hobbit",
+        "genre": "Fantasy",
+        "director": "Peter Jackson",
+        "rating": 8.9,
+        "imageUrl": "https://play-lh.googleusercontent.com/0XrAlw7ujpMSD1FeXJYkaT_3j9gWMphn1aLm7Uf6JyMandF9uLQMlwBH6lVFwHd2AGVMkg=w240-h480-rw"
+    },
+    {
+        "id": "64e642d893169b2d5c0d6e28",
+        "name": "John Wick",
+        "genre": "Action",
+        "director": "Chad Stahelski",
+        "rating": 8.5,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg"
+    },
+    {
+        "id": "64e64e2f93169b2d5c0d6e4c",
+        "name": "Avatar: The Way of Water",
+        "genre": "Fantasy",
+        "director": "James Cameron",
+        "rating": 7.8,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "id": "64e9c52842d1d0a1a6302073",
+        "name": "The Lord of the Rings - The Fellowship of the Ring",
+        "genre": "Fantasy",
+        "director": "Peter Jackson",
+        "rating": 7.1,
+        "imageUrl": "https://m.media-amazon.com/images/I/81EBp0vOZZL._AC_SL1329_.jpg"
+    },
+    {
+        "id": "64e9c63b42d1d0a1a6302079",
+        "name": "The Lord of the Rings - The Return of the King",
+        "genre": "Fantasy",
+        "director": "Peter Jackson",
+        "rating": 9.0,
+        "imageUrl": "https://m.media-amazon.com/images/I/71Jazc-7zWL._AC_SY879_.jpg"
+    },
+    {
+        "id": "64ebc22aa8efa6d7333d9ce7",
+        "name": "Interstellar",
+        "genre": "Sci-Fi",
+        "director": "Cristopher Nolan",
+        "rating": 8.8,
+        "imageUrl": "https://m.media-amazon.com/images/I/81kz06oSUeL.jpg"
+    },
+    {
+        "id": "64ebc38ca8efa6d7333d9cf5",
+        "name": "The Shawshank Redemption",
+        "genre": "Drama",
+        "director": " Frank Darabont",
+        "rating": 9.2,
+        "imageUrl": "https://m.media-amazon.com/images/I/71JxA6I+sgL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "64ef58c161b88d80c2367360",
+        "name": "Barbie",
+        "genre": "Adventure",
+        "director": "Greta Gerwig",
+        "rating": 7.1,
+        "imageUrl": "https://m.media-amazon.com/images/I/61RAQfjkk2L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "64ef58f261b88d80c236736a",
+        "name": "Oppenheimer",
+        "genre": "Biography",
+        "director": "Cristopher Nolan",
+        "rating": 8.5,
+        "imageUrl": "https://m.media-amazon.com/images/I/71lqDylcvGL.jpg"
+    },
+    {
+        "id": "64ef59b061b88d80c236736d",
+        "name": "The Dark Knight",
+        "genre": "Action",
+        "director": "Cristopher Nolan",
+        "rating": 9.1,
+        "imageUrl": "https://m.media-amazon.com/images/I/A1exRxgHRRL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+        "id": "64ef59fa61b88d80c2367370",
+        "name": "Pulp Fiction",
+        "genre": "Crime",
+        "director": "Quentin Tarantino",
+        "rating": 8.2,
+        "imageUrl": "https://m.media-amazon.com/images/I/51zC0X9lWWL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "64ef696761b88d80c236737b",
+        "name": "Mr Bean's Holiday",
+        "genre": "Comedy",
+        "director": "Steve Bendelack",
+        "rating": 6.9,
+        "imageUrl": "https://m.media-amazon.com/images/I/512mT3bfTHL._AC_.jpg"
+    },
+    {
+        "id": "64ef76e6e3762a75515bb9be",
+        "name": "Fast And Furious 5",
+        "genre": "Action",
+        "director": "Justin Lin",
+        "rating": 7.7,
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTG4_p1N9Q0gSH-HIeGwo5bpObCHRsQXr3QHfD_jrw3UffEblUL"
+    },
+    {
+        "id": "64ef7737e3762a75515bb9c1",
+        "name": "Home Alone",
+        "genre": "Comedy",
+        "director": "Chris Columbus",
+        "rating": 6.8,
+        "imageUrl": "https://images.moviesanywhere.com/ac6bd831c08ca0d43a83cf4a04f378b5/3b27bff6-35ad-4a23-be1f-e6faeb56e062.jpg"
+    },
+    {
+        "id": "64ef777fe3762a75515bb9c4",
+        "name": "The Meg",
+        "genre": "Action",
+        "director": "Jon Turteltaub",
+        "rating": 5.5,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTAxMGRmODYtM2NkYS00ZGRlLWE1MWItYjI1MzIwNjQwN2RiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    },
+    {
+        "id": "64ef78ecd6fd6941a1e77039",
+        "name": "Recep İvedik 3",
+        "genre": "Comedy",
+        "director": "Togan Gökbakar",
+        "rating": 6.0,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjEwOTNlZjYtNTVlMS00M2Q5LTk0YmQtMWIzZDI4ODIyODlkXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_FMjpg_UX1000_.jpg"
+    }
+]
