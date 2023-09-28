@@ -23,6 +23,7 @@ export class MovieModel {
     // One line function
     // return DataService.readJSONFile(MoviesPath);
   }
+
   //2. Get Movie by id
   static async getMovieById(movieId) {
     const Movies = await this.getAllMovies();
@@ -33,6 +34,7 @@ export class MovieModel {
 
     return foundMovie;
   }
+
   //   3. Create new Movie
   static async createMovie(movieData) {
     const movies = await this.getAllMovies();
@@ -55,6 +57,7 @@ export class MovieModel {
 
     return newMovie;
   }
+  
   //   4. Update Movie
   static async updateMovie(movieId, updateData) {
     const Movies = await this.getAllMovies();
@@ -73,10 +76,12 @@ export class MovieModel {
 
     return updatedMovie;
   }
+
   // 5. Delete all Movies
   static async deleteAllMovies() {
     await this.saveMovies([]);
   }
+
   // 6. Delete Movie by id
   static async deleteMovie(MovieId) {
     const Movies = this.getAllMovies();
@@ -89,5 +94,29 @@ export class MovieModel {
       throw new Error("Movie not found");
 
     await this.saveMovies(updatedMovies);
+  }
+
+  // 7. Rate Movie by id
+  static async rateMovie(movieId, updateData) {
+    const Movies = await this.getAllMovies();
+
+    const foundMovie = await this.getMovieById(movieId);
+
+    const newRatingValue = updateData.ratingValue;
+    foundMovie.rating.votes.push(newRatingValue);
+    const sumVotes = foundMovie.rating.votes.reduce((accumulator, currentValue) => {
+      return accumulator + currentValue
+    },0);
+    foundMovie.rating.averageValue = sumVotes/foundMovie.rating.votes.length;
+
+    const updatedMovie = { ...foundMovie };
+
+    const updatedMovies = Movies.map(Movie =>
+      Movie.id === updatedMovie.id ? updatedMovie : Movie
+    );
+
+    await this.saveMovies(updatedMovies);
+
+    return updatedMovie;
   }
 }

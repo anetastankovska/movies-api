@@ -21,4 +21,7 @@ movieRouter.delete("/all", MovieController.deleteAllMovies);
 // 6. Delete movie
 // http://localhost:4000/api/movies/id
 movieRouter.delete("/:id", MovieController.deleteMovie);
+// 7. Rate movie
+// http://localhost:4000/api/movies/id/rate
+movieRouter.patch("/:id/rate", MovieController.rateMovie);
 

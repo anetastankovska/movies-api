@@ -2,6 +2,7 @@ import { MovieModel } from "../models/movie.model.js";
 
 // Controllers are in charge of handling the request listner functions
 export class MovieController {
+
   // 1. Get all movies
   static async getAllMovies(req, res) {
     try {
@@ -13,6 +14,7 @@ export class MovieController {
       return res.status(500).json({ msg: error.message });
     }
   }
+
   //   2. Get movie by id
   static async getMovieById(req, res) {
     try {
@@ -26,6 +28,7 @@ export class MovieController {
       return res.status(404).json({ msg: error.message });
     }
   }
+
   //   3. Create new movie
   static async createMovie(req, res) {
     try {
@@ -39,6 +42,7 @@ export class MovieController {
       return res.status(400).json({ msg: error.message });
     }
   }
+
   //   4. Update movie
   static async updateMovie(req, res) {
     try {
@@ -56,6 +60,7 @@ export class MovieController {
       return res.status(400).json({ msg: error.message });
     }
   }
+
   // 5. Delete all movies
   static async deleteAllMovies(req, res) {
     try {
@@ -67,6 +72,7 @@ export class MovieController {
       return res.status(500).json({ msg: error.message });
     }
   }
+
   // 6. Delete movie by id
   static async deleteMovie(req, res) {
     try {
@@ -78,6 +84,26 @@ export class MovieController {
     } catch (error) {
       console.log(error);
       return res.status(404).json({ msg: error.message });
+    }
+  }
+
+  // 7. Rate movie by id
+  static async rateMovie(req, res) {
+    // console.log(req);
+    try {
+    // console.log(req);
+      const { id: movieId } = req.params;
+      const updateData = req.body;
+
+      const updatedMovie = await MovieModel.rateMovie(
+        movieId,
+        updateData
+      );
+
+      return res.json(updatedMovie);
+    } catch (error) {
+      // console.log(error);
+      return res.status(400).json({ msg: error.message });
     }
   }
 }
