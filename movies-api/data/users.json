@@ -26,5 +26,12 @@
     "lastName": "Wayne",
     "email": "jill@jill.com",
     "password": "jill1234"
+  },
+  {
+    "id": "c7b18b61-6a6f-4638-9bff-afe246776303",
+    "firstName": "Aneta",
+    "lastName": "Stankovska",
+    "email": "aneta@aneta.com",
+    "password": "aneta1234"
   }
 ]
