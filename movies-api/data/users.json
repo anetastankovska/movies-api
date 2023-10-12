@@ -4,31 +4,27 @@
     "firstName": "Test",
     "lastName": "Testerson",
     "email": "test@test.com",
-    "password": "test123",
-    "age": 40
+    "password": "test1234"
   },
   {
     "id": "0bb58a7d-75e7-489b-bcde-988eec4dc47d",
     "firstName": "Best",
     "lastName": "Besterson",
     "email": "best@best.com",
-    "password": "test123",
-    "age": 43
+    "password": "best1234"
   },
   {
     "id": "d18bda9f-5f07-4a2f-b2ed-5fa42c04c5f3",
-    "firstName": "Bob",
-    "lastName": "Bobsky",
-    "email": "bob@gmail.com",
-    "password": "changeMeOdma",
-    "age": 25
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@john.com",
+    "password": "john1234"
   },
   {
     "id": "a73fb9de-6a9d-4703-84d3-cfd87e91dc6e",
     "firstName": "Jill",
     "lastName": "Wayne",
-    "email": "jill@gmail.com",
-    "password": "jill321",
-    "age": 29
+    "email": "jill@jill.com",
+    "password": "jill1234"
   }
 ]

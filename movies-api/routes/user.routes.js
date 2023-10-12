@@ -10,7 +10,7 @@ userRouter.get("/", UserController.getAllUsers);
 // http://localhost:4000/api/users/id
 userRouter.get("/:id", UserController.getUserById);
 // 3. Create user
-// http://localhost:4000/api/users
+// http://localhost:4000/api/users/register
 userRouter.post("/register", UserController.createUser);
 // 4. Login as user
 // http://localhost:4000/api/users/login
